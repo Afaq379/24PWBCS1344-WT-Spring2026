@@ -1,0 +1,187 @@
+body{
+    font-family: Arial;
+    margin:20px;
+}
+
+h1{
+    color: darkblue;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+}
+
+a:hover{
+    color:red;
+}
+
+/* Element selector */
+p{
+color:black;
+}
+
+/* Class selector */
+.special{
+color:green;
+}
+
+/* ID selector */
+#unique{
+color:red;
+}
+
+/* Universal selector */
+*{
+box-sizing:border-box;
+}
+
+/* Attribute selector */
+input[type="text"]{
+border:2px solid blue;
+}
+
+/* Descendant combinator */
+div p{
+color:purple;
+}
+
+/* Child combinator */
+ul > li{
+color:orange;
+}
+
+/* Pseudo class */
+li:hover{
+color:red;
+}
+
+/* Pseudo element */
+p::first-letter{
+font-size:30px;
+color:blue;
+}
+
+.font1{
+font-family:'Roboto';
+font-size:20px;
+}
+
+.font2{
+font-family:'Pacifico';
+font-size:2em;
+}
+
+.font3{
+font-family:'Playfair Display';
+font-size:150%;
+}
+
+.shadow{
+font-size:30px;
+text-shadow:2px 2px 5px gray;
+}
+
+.bg1{
+background-color:lightblue;
+padding:50px;
+margin:20px;
+}
+
+.bg2{
+background-image:url("https://picsum.photos/400");
+height:200px;
+background-size:cover;
+}
+
+.bg3{
+background:linear-gradient(red, yellow);
+height:200px;
+margin-top:20px;
+}
+
+.img1{
+width:200px;
+border-radius:20px;
+margin:10px;
+box-shadow:3px 3px 10px gray;
+transition:0.5s;
+}
+
+.img1:hover{
+transform:scale(1.1);
+filter:brightness(120%);
+}
+
+button{
+padding:10px 20px;
+margin:10px;
+border:none;
+cursor:pointer;
+}
+
+.btn1{
+background:blue;
+color:white;
+}
+
+.btn2{
+background:green;
+color:white;
+}
+
+button:hover{
+opacity:0.8;
+}
+
+input, select{
+padding:10px;
+width:200px;
+border:2px solid gray;
+}
+
+input:focus{
+border-color:blue;
+}
+
+button{
+background:purple;
+color:white;
+}
+
+.card{
+width:300px;
+border:1px solid gray;
+padding:20px;
+box-shadow:3px 3px 10px gray;
+transition:0.5s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.nav{
+list-style:none;
+display:flex;
+background:black;
+}
+
+.nav li{
+margin:10px;
+}
+
+.nav a{
+color:white;
+}
+
+.box{
+width:100px;
+height:100px;
+background:red;
+transition:0.5s;
+}
+
+.box:hover{
+transform:rotate(45deg) scale(1.2);
+}
