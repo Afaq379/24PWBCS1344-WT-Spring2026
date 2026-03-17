@@ -1,0 +1,17 @@
+body {
+    background: white;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background: lightblue;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        background: lightgreen;
+    }
+}

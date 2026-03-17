@@ -1,0 +1,19 @@
+.block {
+    display: block;
+    background: lightblue;
+}
+
+.inline {
+    display: inline;
+    background: yellow;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    background: lightgreen;
+}
+
+.hidden {
+    display: none;
+}
